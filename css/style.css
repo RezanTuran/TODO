@@ -32,16 +32,22 @@ a{
 a:hover{
     color: brown;
 }
-
-
-/* ### Loginform style */
-
 .login-form{
+    margin-right: 2em;
+}
+#main{
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
+    height: 40em;
 }
-  
+.welcomeText{
+    font-family: cursive;
+    font-size: 100px;
+    font-weight: 900;
+    color: tan;
+}
+
 /* ### Kontakt style */  
 .abautMeContainer{
     display: flex;
@@ -55,8 +61,8 @@ a:hover{
     width: 30em;
 }
 p{
-    color: white;
+    color: tan;
 }
 h1{
-    color: white;
+    color: tan;
 }
